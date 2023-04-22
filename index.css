@@ -1,9 +1,42 @@
+body{
+    background-color: #949695;
+}
+
 p {
     font-family: Verdana
  }
  .daughter{
-    color: blueviolet;
+    color: rgb(246, 244, 246);
  }
  .son{
-    color: blue;
+    color: rgb(232, 232, 237);
  }
+
+ .nav-bar { }
+.nav-bar  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #090909;
+    };
+  
+.nav-bar  li {
+    float: left;
+  }
+  
+.nav-bar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.nav-bar  li a:hover:not(.active) {
+    background-color: #292525;
+  };
+  
+.nav-bar  .active {
+    background-color: #2d302f;
+  };
