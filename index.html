@@ -3,15 +3,18 @@
 <head>
     <link rel="stylesheet" href="./index.css">
     <body>
-        
-        <div class="nav-bar">
-            <ul  class="nav-bar">
+
+         <div class="nav-bar">
+            <div class="container">
+                <div class="jumbotron">
+                <ul  class="nav-bar">
                 <li><a href="#coding-temple">Coding Temple</a></li>
                 <li><a href="#learn-html">Learn HTML</a></li>
                 <li><a href="#learn-css">Learn CSS</a></li>
                 <li><a href="#other-page">Other Page</a></li>
                 <li style="float:right"><a class="active" href="#link">Link</a></li>
           </ul>
+          </div>
         </div>
         <h1><b>My Portfilo Website !!!</b></h1>
         <p><strong><b><u>Hello! My name is Leisa!</u></b></strong></p>
@@ -36,26 +39,57 @@
             </ol>
         </p>
         
-        <ol><strong><u>Hobbies</u></strong>
-            <img src="images/knitting.png" width="350" height="150" alt="me">
-            <ul><em><small>Family Orientented Gatherings</small></em></ul>
-            <ul><em><small>Knitting Which Allows Me A Sense Of Relaxation</small></em></ul>
-            <ul><em><small>Expressing Creativity In Numoerous Outlets aka Tattoos</small></em></ul>
-            <img src="images/tattoos.jpg" width="220" height="450" alt="me">
-        </ol>
+            <ol><strong><u>Hobbies</u></strong>
+                <ul style="color:rgb(239, 242, 245);">
+                <ul><em><small>Family Orientented Gatherings</small></em></ul>
+                <ul><em><small>Knitting Which Allows Me A Sense Of Relaxation</small></em></ul>
+                <ul><em><small>Expressing Creativity In Numoerous Outlets aka Tattoos</small></em></ul>
+                <img src="images/tattoos.jpg" width="220" height="450" alt="me">
+                <img src="images/knitting.png" width="350" height="150" alt="me">
+            </ol>
         <break></break>
-        <ol><strong><u>My Family - 5 Kiddos Total - 2 Fur Babies</u></strong>
-            <ul><em><small>My Partner - Senior Developer in Automation</small></em></ul>
-            <ul class="daughter"><em><small>Child 1 - Daughter - 12 yrs old</small></em></ul>
-            <ul class="son"><em><small>Child 2 - Son - 10 yrs old</small></em></ul>
-            <ul class="daughter"><em><small>Child 3 - Daughter - 8 yrs old</small></em></ul>
-            <ul class="daughter"><em><small>Child 4 - Daughter - 8 yrs old</small></em></ul>
-            <ul class="son"><em><small>Child 5 - Son - 4 yrs old</small></em></ul>
 
-            <ul><em><small>Dog 1 - Puggle - 4 yrs old</small></em></ul>
-            <ul><em><small>Dog 2 - Corgi - 8 months old</small></em></ul>
-        </ol>
+            <ol><strong><u>Why I Have A Desire To Be A Web Developer</u></strong></ol>
+                <ul style="color:rgb(239, 242, 245);">
+                <ul><em><small>Create & Bring Things to Life</small></em></ul>
+                <ul><em><small>Gain A Sense Of Independence</small></em></ul>
+                <ul><em><small>Branch Outside Of Owns Comfort Zone</small></em></ul>
+                <ul><em><small>Create A Better Life For My Family</small></em></ul>
+            <p><b><u>You can find alot of good info on the following links W3Schools & stackoverflow.</u></b></p>
+            <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+            <a href="https://stackoverflow.com/">Visit stackoverflow!</a>
+            </ol>
+        <break></break>
 
+            <ol><strong><u>My Family - 5 Kiddos Total - 2 Fur Babies</u></strong>
+                <ul style="color:rgb(239, 242, 245);">
+                <ul><em><small>My Partner - Senior Developer in Automation</small></em></ul>
+                <ul class="daughter"><em><small>Child 1 - Daughter - 12 yrs old</small></em></ul>
+                <ul class="son"><em><small>Child 2 - Son - 10 yrs old</small></em></ul>
+                <ul class="daughter"><em><small>Child 3 - Daughter - 8 yrs old</small></em></ul>
+                <ul class="daughter"><em><small>Child 4 - Daughter - 8 yrs old</small></em></ul>
+                <ul class="son"><em><small>Child 5 - Son - 4 yrs old</small></em></ul>
+                <ul><em><small>Dog 1 - Puggle - 4 yrs old</small></em></ul>
+                <ul><em><small>Dog 2 - Corgi - 8 months old</small></em></ul>
+            </ol>
+
+            <form>
+                <p><b><u>Enter Your Name Below:</u></b></p>
+                <label for="First Name">First name:</label><br>
+                <input type="text" id="First Name" name="First Name"><br>
+                <label for="Last Name">Last name:</label><br>
+                <input type="text" id="Last Name" name="Last Name">
+              </form>
+              <p><b><u>Choose your favorite Web Developer Resource Tool:</u></b></p>
+
+              <form>
+                <input type="radio" id="html" name="fav_tool" value="W3Schools">
+                <label for="w3schools">W3Schools</label><br>
+                <input type="radio" id="stackoverflow" name="fav_tool" value="stackoverflow">
+                <label for="stackoverflow">stackoverflow</label><br>
+                <input type="radio" id="other" name="fav_tool" value="other">
+                <label for="other">Other</label>
+              </form>
     </body>
 </head>
 </html>
