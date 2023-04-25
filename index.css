@@ -1,42 +1,106 @@
-body{
-    background-color: #949695;
+* {
+  box-sizing: border-box;
 }
 
-p {
-    font-family: Verdana
- }
- .daughter{
-    color: rgb(246, 244, 246);
- }
- .son{
-    color: rgb(232, 232, 237);
- }
+p.solid {border-style: solid;}
 
- .nav-bar { }
-.nav-bar  ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #090909;
-    };
-  
-.nav-bar  li {
-    float: left;
+h1 {
+  text-shadow: 2px 2px;
+}
+
+body {
+  font-family: Verdana
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(245, 12, 183);
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgb(240, 6, 213);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+r {
+  padding: 20px;
+  text-align: center;
+  background: #66016a;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
   }
-  
-.nav-bar  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+}
+
+@media screen and (max-width: 300px) {
+  .topnav a {
+    float: none;
+    width: 100%;
   }
-  
-.nav-bar  li a:hover:not(.active) {
-    background-color: #292525;
-  };
-  
-.nav-bar  .active {
-    background-color: #2d302f;
-  };
+}
+
+.button {
+  background-color: #060606; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
